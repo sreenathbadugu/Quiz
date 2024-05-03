@@ -3,7 +3,11 @@ import React from 'react';
 const handleBankRedirect = () => {
     // Redirect user to UPI or other payment options
     window.location.href = 'https://pay.upilink.in/pay/sreenathbadugu@fifederal?am=100'; // Replace with actual UPI URL
+    
 };
+
+;
+
 
 const PaymentButton = () => (
     <center>
@@ -48,7 +52,7 @@ const PaymentOption = () => (
         }}></div>
 
         <center>
-            <strong><h1>Welcome to My Payment Page</h1></strong>
+            <strong><h1>Welcome to Payment Page</h1></strong>
             <strong style={{ color: 'red' }}><p>Please click the button below to proceed with the payment:</p></strong>
             <PaymentButton />
         </center>
